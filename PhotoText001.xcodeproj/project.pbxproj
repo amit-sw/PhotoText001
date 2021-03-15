@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		AA43FC2F25BFA6F600CA82B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43FC2E25BFA6F600CA82B2 /* AppDelegate.swift */; };
 		AA43FC3125BFA6F600CA82B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43FC3025BFA6F600CA82B2 /* SceneDelegate.swift */; };
-		AA43FC3325BFA6F600CA82B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43FC3225BFA6F600CA82B2 /* ViewController.swift */; };
+		AA43FC3325BFA6F600CA82B2 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43FC3225BFA6F600CA82B2 /* CameraViewController.swift */; };
 		AA43FC3625BFA6F600CA82B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA43FC3425BFA6F600CA82B2 /* Main.storyboard */; };
 		AA43FC3825BFA6F900CA82B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA43FC3725BFA6F900CA82B2 /* Assets.xcassets */; };
 		AA43FC3B25BFA6F900CA82B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA43FC3925BFA6F900CA82B2 /* LaunchScreen.storyboard */; };
+		AA44BBF125FEED1D00795CED /* GoogleSheetsIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA44BBF025FEED1D00795CED /* GoogleSheetsIntegration.swift */; };
+		AA44BBF425FEED5000795CED /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA44BBF325FEED4F00795CED /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA43FC2B25BFA6F600CA82B2 /* PhotoText001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoText001.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA43FC2E25BFA6F600CA82B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA43FC3025BFA6F600CA82B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AA43FC3225BFA6F600CA82B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA43FC3225BFA6F600CA82B2 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		AA43FC3525BFA6F600CA82B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA43FC3725BFA6F900CA82B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA43FC3A25BFA6F900CA82B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA43FC3C25BFA6F900CA82B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA44BBF025FEED1D00795CED /* GoogleSheetsIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSheetsIntegration.swift; sourceTree = "<group>"; };
+		AA44BBF325FEED4F00795CED /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				AA43FC2E25BFA6F600CA82B2 /* AppDelegate.swift */,
 				AA43FC3025BFA6F600CA82B2 /* SceneDelegate.swift */,
-				AA43FC3225BFA6F600CA82B2 /* ViewController.swift */,
+				AA43FC3225BFA6F600CA82B2 /* CameraViewController.swift */,
 				AA43FC3425BFA6F600CA82B2 /* Main.storyboard */,
+				AA44BBF025FEED1D00795CED /* GoogleSheetsIntegration.swift */,
+				AA44BBF325FEED4F00795CED /* LocationManager.swift */,
 				AA43FC3725BFA6F900CA82B2 /* Assets.xcassets */,
 				AA43FC3925BFA6F900CA82B2 /* LaunchScreen.storyboard */,
 				AA43FC3C25BFA6F900CA82B2 /* Info.plist */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA43FC3325BFA6F600CA82B2 /* ViewController.swift in Sources */,
+				AA43FC3325BFA6F600CA82B2 /* CameraViewController.swift in Sources */,
+				AA44BBF125FEED1D00795CED /* GoogleSheetsIntegration.swift in Sources */,
+				AA44BBF425FEED5000795CED /* LocationManager.swift in Sources */,
 				AA43FC2F25BFA6F600CA82B2 /* AppDelegate.swift in Sources */,
 				AA43FC3125BFA6F600CA82B2 /* SceneDelegate.swift in Sources */,
 			);
